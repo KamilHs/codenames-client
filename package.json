@@ -21,8 +21,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "prettier": "prettier --config .prettierrc.json --write src/**/*.ts",
-        "eslint": "eslint --config .eslintrc.js --fix src/**/*.ts",
+        "prettier": "prettier --config .prettierrc.json --write src/**/*.{ts,tsx}",
+        "eslint": "eslint --config .eslintrc.js --fix src/**/*.{ts,tsx}",
         "prepare": "husky install"
     },
     "eslintConfig": {
